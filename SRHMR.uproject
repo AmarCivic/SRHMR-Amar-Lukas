@@ -96,6 +96,10 @@
 				"Mac",
 				"Linux"
 			]
+		},
+		{
+			"Name": "DatasmithRuntime",
+			"Enabled": true
 		}
 	],
 	"TargetPlatforms": [

@@ -12,3 +12,9 @@ Saved
 *.suo
 *.xcodeproj
 *.xcworkspace
+Build/HoloLens/Microsoft.VCLibs.arm64.14.00.appx
+Build/HoloLens/Microsoft.VCLibs.x64.14.00.appx
+Build/HoloLens/FileOpenOrder/CookerOpenOrder.log
+Build/HoloLens/FileOpenOrder/EditorOpenOrder.log
+Build/HoloLens/SRHMR.appxbundle
+Build/HoloLens/SRHMR.cer
