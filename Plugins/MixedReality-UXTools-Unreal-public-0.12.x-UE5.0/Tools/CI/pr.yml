@@ -1,0 +1,31 @@
+# PR triggers in ADO are configured using branch policies. This section is only for GitHub.
+pr:
+- master
+
+# Disable CI trigger (defaults to all branches)
+trigger: none
+
+variables:
+- template: settings/common.yml
+
+resources:
+  repositories:
+  - repository: build-tools
+    type: git
+    endpoint: Analog
+    name: Analog/mixedrealitytoolkit.build
+    ref: mru-ue
+
+jobs:
+- job:
+  condition: and(ne(variables['Build.SourceBranch'], 'refs/heads/public/0.12.x-UE5.0'), ne(variables['System.PullRequest.TargetBranch'], 'refs/heads/public/0.12.x-UE5.0'))
+  pool:
+    name: $(AgentPool)
+  workspace:
+    clean: all
+  steps:
+  - checkout: self
+    clean: true
+    submodules: true
+  - checkout: build-tools
+  - template: templates/common.yml
