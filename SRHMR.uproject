@@ -107,6 +107,14 @@
 		{
 			"Name": "DatasmithRuntime",
 			"Enabled": true
+		},
+		{
+			"Name": "MicroSoftSpatialSound",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"HoloLens",
+				"Win64"
+			]
 		}
 	],
 	"TargetPlatforms": [
