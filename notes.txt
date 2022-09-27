@@ -1,0 +1,16 @@
+-datasmith runtime plugin deaktiviert->errors
+-missing variable in player pawn->create
+-brille konto einrichten
+-holographic player installieren und connecten
+-default rhi ist dx12, hololens kann nur dx11 per remote
+-GTDirectionalLight
+-special unlit shaders
+-switch editor preview to ES3.1 to get closer match
+-forward shading
+-turn off occlusion culling
+
+-MRTK Graphics Tools and UX Tools provide additional features optimized for hololens
+
+deployment:
+richtige sdks installieren
+signing cert
