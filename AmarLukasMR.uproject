@@ -5,7 +5,7 @@
 	"Description": "",
 	"Modules": [
 		{
-			"Name": "SRHHololens",
+			"Name": "AmarLukasMR",
 			"Type": "Runtime",
 			"LoadingPhase": "Default"
 		}

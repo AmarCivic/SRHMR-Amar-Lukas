@@ -1,10 +1,10 @@
-// Copyright 2022 Pascal Hirt and Adrian Pfaff
+// Copyright 2022 Amar und Lukas
 
 using UnrealBuildTool;
 
-public class SRHHololens : ModuleRules
+public class AmarLukasMR: ModuleRules
 {
-	public SRHHololens(ReadOnlyTargetRules Target) : base(Target)
+	public AmarLukasMR(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	
